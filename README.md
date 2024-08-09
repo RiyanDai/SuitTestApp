@@ -11,3 +11,52 @@
     <td><img src="https://github.com/user-attachments/assets/0e399984-20d7-40e8-a82d-6b75aaa3b392" width="300" /></td>
   </tr>
 </table>
+
+
+## Teknologi yang Digunakan
+
+<h3>Bahasa Pemrograman</h3>
+<ul>
+  <li><strong>Kotlin</strong></li>
+</ul>
+
+<h3>IDE dan Tools</h3>
+<ul>
+  <li><strong>Android Studio</strong></li>
+  <li><strong>Gradle</strong></li>
+</ul>
+
+<h3>Arsitektur</h3>
+<ul>
+  <li><strong>MVVM (Model-View-ViewModel)</strong></li>
+</ul>
+
+<h3>Library dan Framework</h3>
+<ul>
+  <li><strong>Retrofit2</strong>: Untuk request API dan konversi respons JSON.</li>
+  <li><strong>OkHttp</strong>: Untuk melakukan permintaan data ke server.</li>
+  <li><strong>Datastore</strong>: Untuk menyimpan data dalam penyimpanan lokal.</li>
+  <li><strong>Glide</strong>: Untuk memuat dan caching gambar.</li>
+  <li><strong>CircleImageView</strong>: Untuk menampilkan gambar dalam bentuk lingkaran.</li>
+  <li><strong>RecyclerView</strong>: Untuk menampilkan daftar data.</li>
+  <li><strong>SwipeRefreshLayout</strong>: Untuk fungsi swipe-to-refresh.</li>
+  <li><strong>Lifecycle</strong>: Untuk mengelola siklus hidup komponen dan menghubungkan frontend dengan backend.</li>
+</ul>
+
+<h3>Libraries AndroidX</h3>
+<ul>
+  <li><strong>Core KTX</strong>: Ekstensi Kotlin untuk komponen inti Android.</li>
+  <li><strong>AppCompat</strong>: Dukungan untuk versi Android yang lebih lama.</li>
+  <li><strong>Material</strong>: Komponen Material Design.</li>
+  <li><strong>Activity KTX</strong>: Ekstensi Kotlin untuk aktivitas Android.</li>
+  <li><strong>ConstraintLayout</strong>: Layout untuk desain UI yang fleksibel.</li>
+  <li><strong>ViewModel</strong>: Untuk komponen yang sadar siklus hidup.</li>
+  <li><strong>LiveData</strong>: Untuk data yang sadar siklus hidup.</li>
+</ul>
+
+ 
+ 
+ 
+
+
+
