@@ -42,17 +42,7 @@
   <li><strong>SwipeRefreshLayout</strong>: Untuk fungsi swipe-to-refresh.</li>
   <li><strong>Lifecycle</strong>: Untuk mengelola siklus hidup komponen dan menghubungkan frontend dengan backend.</li>
 </ul>
-
-<h3>Libraries AndroidX</h3>
-<ul>
-  <li><strong>Core KTX</strong>: Ekstensi Kotlin untuk komponen inti Android.</li>
-  <li><strong>AppCompat</strong>: Dukungan untuk versi Android yang lebih lama.</li>
-  <li><strong>Material</strong>: Komponen Material Design.</li>
-  <li><strong>Activity KTX</strong>: Ekstensi Kotlin untuk aktivitas Android.</li>
-  <li><strong>ConstraintLayout</strong>: Layout untuk desain UI yang fleksibel.</li>
-  <li><strong>ViewModel</strong>: Untuk komponen yang sadar siklus hidup.</li>
-  <li><strong>LiveData</strong>: Untuk data yang sadar siklus hidup.</li>
-</ul>
+ 
 
  
  
