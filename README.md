@@ -23,7 +23,7 @@
 <h3>IDE dan Tools</h3>
 <ul>
   <li><strong>Android Studio</strong></li>
-  <li><strong>Gradle</strong></li>
+  <li><strong>Gradle (Groovy)</strong></li>
 </ul>
 
 <h3>Arsitektur</h3>
