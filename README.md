@@ -9,7 +9,6 @@
   <tr>
     <td><img src="https://github.com/user-attachments/assets/4fe2fd5c-edf2-4ab0-8bc5-6da4022526f7" width="300" /></td>
     <td><img src="https://github.com/user-attachments/assets/0e399984-20d7-40e8-a82d-6b75aaa3b392" width="300" /></td>
-    <td><img src="https://github.com/user-attachments/assets/0e399984-20d7-40e8-a82d-6b75aaa3b392" width="300" /></td>
     <td><img src="https://github.com/user-attachments/assets/682d0613-3fc3-4075-a174-e221c8eda855" width="300" /></td>
   </tr>
 </table>
