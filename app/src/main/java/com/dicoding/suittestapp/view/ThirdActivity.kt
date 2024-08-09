@@ -1,5 +1,7 @@
 package com.dicoding.suittestapp.view
 
+import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
@@ -56,16 +58,20 @@ class ThirdActivity : AppCompatActivity() {
             }
         })
 
-        // Handle the back button click
         binding.btnback3.setOnClickListener {
-            finish()  // This will close the current activity and return to the previous one
+            finish()  // Closes ThirdActivity and returns to SecondActivity
         }
     }
 
     private fun setupRecyclerView() {
         userAdapter = UserAdapter { user ->
             val selectedUserName = "${user.first_name} ${user.last_name}"
-            // Handle user selection and update the second screen
+            // Pass the selected user name back to SecondActivity
+            val intent = Intent().apply {
+                putExtra("SELECTED_USER_NAME", selectedUserName)
+            }
+            setResult(Activity.RESULT_OK, intent)
+            finish()  // This will close the current activity and return to SecondActivity
         }
 
         binding.recyclerView.apply {

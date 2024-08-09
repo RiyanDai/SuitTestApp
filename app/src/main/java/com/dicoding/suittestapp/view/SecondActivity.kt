@@ -9,6 +9,10 @@ class SecondActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivitySecondBinding
 
+    companion object {
+        const val REQUEST_CODE_SELECT_USER = 100
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivitySecondBinding.inflate(layoutInflater)
@@ -18,20 +22,19 @@ class SecondActivity : AppCompatActivity() {
         binding.userNameTextView.text = userName
 
         binding.chooseUserButton.setOnClickListener {
-            startActivity(Intent(this, ThirdActivity::class.java))
+            val intent = Intent(this, ThirdActivity::class.java)
+            startActivityForResult(intent, REQUEST_CODE_SELECT_USER)
         }
 
-        // Handle the back button click
         binding.btnback2.setOnClickListener {
-            finish()  // This will close the current activity and return to the previous one
+            finish()  // Closes SecondActivity and returns to the previous one
         }
     }
 
-    override fun onResume() {
-        super.onResume()
-        // Update the selected user name if available
-        val selectedUserName = intent.getStringExtra("SELECTED_USER_NAME")
-        if (!selectedUserName.isNullOrEmpty()) {
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode == REQUEST_CODE_SELECT_USER && resultCode == RESULT_OK) {
+            val selectedUserName = data?.getStringExtra("SELECTED_USER_NAME")
             binding.selectedUserNameTextView.text = selectedUserName
         }
     }
