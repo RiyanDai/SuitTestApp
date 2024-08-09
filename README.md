@@ -38,7 +38,6 @@
 <ul>
   <li><strong>Retrofit2</strong>: Untuk request API dan konversi respons JSON.</li>
   <li><strong>OkHttp</strong>: Untuk melakukan permintaan data ke server.</li>
-  <li><strong>Datastore</strong>: Untuk menyimpan data dalam penyimpanan lokal.</li>
   <li><strong>Glide</strong>: Untuk memuat dan caching gambar.</li>
   <li><strong>CircleImageView</strong>: Untuk menampilkan gambar dalam bentuk lingkaran.</li>
   <li><strong>RecyclerView</strong>: Untuk menampilkan daftar data.</li>
